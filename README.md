@@ -10,6 +10,10 @@
 # Live Version (Netlify)
 https://main--visionary-horse-14b95c.netlify.app/
 
+# About
+gained knowledge of frontend and backend development. 
+Obtained useful experience by analyzing the design, usability, and interactivity of websites. 
+Used HTML, CSS, JavaScript, Flexbox & Layouts, Async/Await, and Animation, I created a quick and responsive activism-focused website with a customized user experience.
 
 
 <h3 align="left">Languages and Tools:</h3>
