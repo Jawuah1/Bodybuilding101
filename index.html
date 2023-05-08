@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link  rel="icon"  href="/img/barbell-logo"/>
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="reset-webview.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+  
+  
+  <div class="navbar">
+  <ul>
+    <li class="navText"><a href="#home">Home</a></li>
+    <li class="navText"><a href="#about">About</a></li>
+    <li class="navText"><a href="#news">News</a></li>
+    <li class="navText"><a href="#contact">Contact</a></li>
+    <li><button id="theme-button">Toggle Dark Mode</button></li>
+
+  </div>
+    
+  </ul>
+  <!--header-->
+  <div class="header-container">
+    <div class="header-item">
+  <img  id="header-img" src="img/dumbell logo" width="200px">
+    </div>
+    <div class="header-item">
+  <h1>BodyBuilding101</h1>
+  <h3>Connect new and experienced lifters to learn more</h3>
+  <button class="header-button" type="button">Bench video</button>
+  <button class="header-button" type="button">Squat video</button>
+    </div>
+  </div>
+  <!--About section-->
+  <div class="about-item">
+  <h2 id="about">What is BodyBulding101?</h2>
+  <iframe src="https://www.youtube.com/embed/vYCIqtJ1UiE"  width="500" height="300"></iframe>
+
+  <p class="important">Bodybuilding101 is the one stop shop to find and learn all about bodybulding and the best excersices which are beginner freindly to reach your maximun potential.</p>
+  </div>
+  <!--More info-->
+  <div class="lifts-item active revealable">
+  <div>
+    
+  <img src = "img/bench-press.webp" class="inner-img">
+    
+    <div class="inner-container">
+  <h3>Bench Press</h3>
+  <p>"Bench press is a popular strength training exercise that primarily targets the chest, shoulders, and triceps muscles. It is performed by lying on a flat bench with a weighted barbell held over the chest, then pushing the barbell upwards until the arms are fully extended, and lowering it back down to the chest."</p>
+    </div>
+  </div>
+    <div>
+      
+  <img src = "img/squat-one.webp" class="inner-img">
+        
+    <div class="inner-container">
+  <h3>Barbell Squat</h3>
+  <p>"Squats are a fundamental strength training exercise that target the lower body muscles, including the quadriceps, hamstrings, and glutes. The exercise is performed by standing with feet shoulder-width apart, holding a weighted barbell on the back of the shoulders, and bending the knees and hips to lower the body until the thighs are parallel to the ground, and then standing back up."</p>
+    </div>
+    </div>
+  </div>
+  
+  <h3 id="news">News</h3>
+  <a href="https://www.healthline.com/health/fitness-exercise/compound-exercises" target="_blank"> Compound Exercised and safety benefits!</a>
+  <h3></h3>
+  <a href="https://barbend.com/compound-exercises/" target="_blank">What are compound exercises and the difference between Coumpund vs Isolated exercises.</a>
+  <h3></h3>
+  <a href="https://mirafit.co.uk/blog/seven-best-compound-lifts-for-better-results/" target="_blank">Best compound lifts for maximum muscle gains.</a>
+
+    <div class="petition active revealable" id="petition">
+
+    <h2>Sign Our Petition 📢</h2>
+    <div class="petition-container">
+
+
+      <div class="petition-para">
+        <!-- info goes here -->
+        Bodybuilding is a great way to improve your overall health and fitness. Engaging in regular weight training can help increase muscle mass, improve bone density, and boost metabolism. It is also a great way to relieve stress and improve mental wellbeing.In addition to the physical benefits, bodybuilding can also have a positive impact on self-esteem and confidence. Achieving your fitness goals can be incredibly rewarding, and the discipline and dedication required to build muscle can transfer to other areas of your life as well.Overall, bodybuilding is a great way to improve your health and wellness. Whether you're looking to build muscle mass or simply improve your overall fitness level, engaging in regular weight training can help you achieve your goals and improve your quality of life.
+
+      </div>
+
+      <div class="signatures">
+        <p>🖊️ DJ from Brooklyn supports this.</p>
+        <p>🖊️ Amy from Queens supports this.</p>
+        <p>🖊️ Teresa from Harlem supports this.</p>
+      <p id="counter">🖊️ 3 people have signed this petition and support this cause.</p>
+      </div>
+      
+
+    </div>
+
+  <!--- Sign Petition Form --->
+  <form id="sign-petition" title="sign-petition">
+    <!-- inputs go here -->
+    <label for="name">Name</label>
+    <input type="text" id="name">
+
+     <label for="hometown">Hometown</label>
+    <input type="text" id="hometown">
+
+     <label for="email">Email</label>
+    <input type="text" id="email">
+  </form>
+
+   <!--- Sign Now Button --->
+  <button id="sign-now-button">Sign Now</button>
+
+</div>
+
+  <!-- Modal -->
+<div id="thanks-modal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div id="modal-text-container">
+      <!-- text here --> 
+      <p id="thanks-content-modal">Thank you so much Syra van Narwhal! Las Vegas represent!</p>
+      <!-- button here (stretch feature) -->
+      <button id="modal-button">Close</button>
+    </div>
+    <!-- image here-->
+          <img src="./img/arnold.png" id="modal-image" width="500"/>
+
+  </div>
+    
+</div>
+  
+ 
+<div class="footer">
+  <a>Learn More</a>
+  <h3></h3>
+  <a>Email our Team</a>
+</div>
+  
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>
