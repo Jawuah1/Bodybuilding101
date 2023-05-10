@@ -1,4 +1,6 @@
 # Bodybuilding101
+Bodybuilding101 is the one stop shop to find and learn all about bodybulding and the best excersices which are beginner freindly to reach your maximun potential.
+
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
 </div>
