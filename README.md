@@ -10,8 +10,7 @@ Bodybuilding101 is the one stop shop to find and learn all about bodybulding and
 <img src="http://g.recordit.co/dfVOeGMR3c.gif"><br>
 
 # Live Version (Netlify)
-https://main--visionary-horse-14b95c.netlify.app/
-
+https://bodybuilding101.netlify.app/
 # About
 gained knowledge of frontend and backend development. 
 Obtained useful experience by analyzing the design, usability, and interactivity of websites. 
